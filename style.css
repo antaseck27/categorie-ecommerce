@@ -11,7 +11,7 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-    background-color: #adb5b8 !important; 
+    /* background-color: #adb5b8 !important;  */
   color: #0b0c0c !important; 
 }
 
@@ -26,7 +26,8 @@ body {
 }
 
 .product-img:hover {
-  background-color: #f0f0f0;
+  color: #434647;
+  background-color: #f4f7f8;
   transform: scale(1.02);
 }
 
@@ -59,11 +60,32 @@ body {
   
   /*------------------------------------------------- Onglet actif personnalisé ---------------------------------------------------------------------*/
   .nav-link.active {
-    background-color: #f1f1f1 !important; 
+    /* background-color: #8d8787 !important;  */
     color: black !important;              
     border-color: #dee2e6 #dee2e6 #f1f1f1 !important;
   }
   
+  .woman:hover{
+    background-color: #c455ae !important; /* rose clair */
+    color: black !important; /* noir */
+  }
+  .un:hover{
+    color: #c455ae !important;
+  }
+  .men:hover{
+    background-color: #0d6efd !important; /* bleu clair */
+    color: black !important; /* noir */
+  }
+  .deux:hover{
+    color: #0d6efd !important;
+  }
+  .kids:hover{
+    background-color: #ffc107 !important; /* jaune clair */
+    color: black !important; /* noir */
+  }
+  .trois:hover{
+    color: #ffc107 !important;
+  }
 
 /* -----------------------------------------------------------------Card img--------------------------------------------------------------------- */
   .card-img-top {
