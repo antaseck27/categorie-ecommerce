@@ -1,6 +1,6 @@
 
 body {
-    /* background-color: aqua; */
+    background-color: rgb(222, 230, 230);
     /* background-image: url("image/image-de-fond.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,7 +27,6 @@ body {
 
 .product-img:hover {
   color: #434647;
-  background-color: #f4f7f8;
   transform: scale(1.02);
 }
 
@@ -48,13 +47,13 @@ body {
 
   /* ----------------------------------------------------------------Couleur du lien par défaut------------------------------------------------------------- */
 .nav-link {
-    color: black !important;
+    color: rgb(15, 14, 14) !important;
   }
   
   /* ----------------------------------------------------------------Lien au survol --------------------------------------------------------------*/
   .nav-link:hover,
   .nav-link:focus {
-    color: #adb5bd !important; /* gris clair */
+    color: #0c0c0c !important; /* gris clair */
     text-decoration: none;
   }
   
@@ -63,28 +62,32 @@ body {
     /* background-color: #8d8787 !important;  */
     color: black !important;              
     border-color: #dee2e6 #dee2e6 #f1f1f1 !important;
+    background-color: rgb(213, 217, 214) !important; /* vert */
   }
   
   .woman:hover{
-    background-color: #c455ae !important; /* rose clair */
-    color: black !important; /* noir */
+    background-color: #ebabde !important; /* rose clair */
+    color: rgb(6, 5, 5) !important; /* noir */
   }
   .un:hover{
-    color: #c455ae !important;
+    background-color: #ebabde !important;
+    color: rgb(16, 14, 14);
   }
   .men:hover{
-    background-color: #0d6efd !important; /* bleu clair */
-    color: black !important; /* noir */
+    background-color: #abeedd !important; /* bleu clair */
+    color: rgb(12, 11, 11) !important; /* noir */
   }
   .deux:hover{
-    color: #0d6efd !important;
+    background-color: #abeedd;
+    color: #0a0b0b !important;
   }
   .kids:hover{
-    background-color: #ffc107 !important; /* jaune clair */
-    color: black !important; /* noir */
+    background-color: #ecbd72 !important; /* jaune clair */
+    color: rgb(10, 10, 10) !important; /* noir */
   }
   .trois:hover{
-    color: #ffc107 !important;
+    background-color: #ecbd72 !important;
+    color: rgb(15, 14, 14) !important;
   }
 
 /* -----------------------------------------------------------------Card img--------------------------------------------------------------------- */
